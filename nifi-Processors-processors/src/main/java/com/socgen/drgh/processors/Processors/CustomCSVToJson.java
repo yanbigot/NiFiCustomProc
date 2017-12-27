@@ -47,7 +47,7 @@ public class CustomCSVToJson extends AbstractProcessor {
 
     public static final PropertyDescriptor FLATTEN = new PropertyDescriptor
             .Builder().name("FLATTEN")
-            .description("Example Property")
+            .description("Idle property")
             .required(false)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
 
@@ -61,7 +61,7 @@ public class CustomCSVToJson extends AbstractProcessor {
             .build();
     public static final Relationship SUCCESS = new Relationship.Builder()
             .name("SUCCESS")
-            .description("Example relationship")
+            .description("Success")
             .build();
 
     private List<PropertyDescriptor> descriptors;
@@ -102,9 +102,7 @@ public class CustomCSVToJson extends AbstractProcessor {
             return;
         }
         else {
-
             String csvFile = flowFile.getAttribute("absolute.path") + flowFile.getAttribute("filename");
-
             String result = csvAsJsonString(csvFile);
 
             flowFile = session.putAttribute(flowFile, "result.status", "nice");
