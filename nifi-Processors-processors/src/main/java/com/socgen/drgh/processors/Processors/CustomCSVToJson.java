@@ -34,6 +34,9 @@ import org.apache.nifi.annotation.documentation.Tags;
 import org.apache.nifi.processor.exception.ProcessException;
 import org.apache.nifi.processor.util.StandardValidators;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import java.io.*;
 import java.util.*;
 
@@ -47,10 +50,9 @@ public class CustomCSVToJson extends AbstractProcessor {
 
     public static final PropertyDescriptor FLATTEN = new PropertyDescriptor
             .Builder().name("FLATTEN")
-            .description("Idle property")
+            .description("Example Property")
             .required(false)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
-
             .build();
     public static final PropertyDescriptor OUTPUT_PATH = new PropertyDescriptor
             .Builder().name("OUTPUT_PATH")
@@ -59,9 +61,24 @@ public class CustomCSVToJson extends AbstractProcessor {
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
             .defaultValue("D:\\APPS\\nifi-1.4.0\\ouput\\output.json")
             .build();
+    public static final PropertyDescriptor SCRIPT = new PropertyDescriptor
+            .Builder().name("SCRIPT")
+            .description("Script content")
+            .expressionLanguageSupported(true)
+            .required(false)
+            .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
+            .build();
+    public static final PropertyDescriptor SCRIPT_ENGINE = new PropertyDescriptor
+            .Builder().name("SCRIPT_ENGINE")
+            .description("Script engine which will execute the code")
+            .expressionLanguageSupported(true)
+            .allowableValues("groovy", "nashorn")
+            .required(false)
+            .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
+            .build();
     public static final Relationship SUCCESS = new Relationship.Builder()
             .name("SUCCESS")
-            .description("Success")
+            .description("Example relationship")
             .build();
 
     private List<PropertyDescriptor> descriptors;
@@ -73,6 +90,8 @@ public class CustomCSVToJson extends AbstractProcessor {
         final List<PropertyDescriptor> descriptors = new ArrayList<PropertyDescriptor>();
         descriptors.add(FLATTEN);
         descriptors.add(OUTPUT_PATH);
+        descriptors.add(SCRIPT);
+        descriptors.add(SCRIPT_ENGINE);
         this.descriptors = Collections.unmodifiableList(descriptors);
 
         final Set<Relationship> relationships = new HashSet<Relationship>();
@@ -102,7 +121,20 @@ public class CustomCSVToJson extends AbstractProcessor {
             return;
         }
         else {
+            String scriptEngine = context.getProperty(SCRIPT_ENGINE).getValue();
+            String script = context.getProperty(SCRIPT).getValue();
+            if(scriptEngine.contains("groovy")){
+                ScriptEngine engine = new ScriptEngineManager().getEngineByName("groovy");
+                try {
+                    Object result =  engine.eval(script);
+                    session.putAttribute(flowFile,"evaluation.result", String.valueOf(result));
+                } catch (ScriptException e) {
+                    e.printStackTrace();
+                }
+            }
+
             String csvFile = flowFile.getAttribute("absolute.path") + flowFile.getAttribute("filename");
+
             String result = csvAsJsonString(csvFile);
 
             flowFile = session.putAttribute(flowFile, "result.status", "nice");
