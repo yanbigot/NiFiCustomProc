@@ -6,6 +6,10 @@ public class Field
     public static String END = ">";
     public static String SEP = ";";
 
+    public static String JSON_START = "{\"";
+    public static String JSON_END = "\"}";
+    public static String JSON_SEP= "\": \"";
+
     public String name;
     public int    lenght;
     public int    order;
@@ -15,7 +19,6 @@ public class Field
         this.lenght = lenght;
     }
 
-
     public String matchPattern(){
         return "(?<"+name+">.{"+lenght+"})";
     }
@@ -23,9 +26,4 @@ public class Field
     public String replacePattern() {
         return START + name + SEP + "${" + name + "}" + END;
     }
-
-    public static String emptyFieldPattern(){
-        return START+ "[a-zA-Z0-9]+\\s*"+ SEP +END;
-    }
-
 }
