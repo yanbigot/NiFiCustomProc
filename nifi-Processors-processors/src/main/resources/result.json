@@ -1,0 +1,473 @@
+{
+  "magasin.livre": [
+    {
+      "test": {
+        "categorie": "reference",
+        "rulesResult": "je test",
+        "auteur": "Nigel Rees"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "Evelyn Waugh"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "Herman Melville"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    },
+    {
+      "test": {
+        "categorie": "fiction",
+        "rulesResult": "je test",
+        "auteur": "J. R. R. Tolkien"
+      }
+    }
+  ]
+}
