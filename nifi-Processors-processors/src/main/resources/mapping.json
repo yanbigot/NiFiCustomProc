@@ -1,0 +1,37 @@
+{"id": "TestF",
+  "listMapping": [
+    {
+      "type": "SubMappingElement",
+      "subMapper": {
+        "id": "Test",
+        "listMapping": [
+          {
+            "type": "MappingElementSimple",
+            "mappingElementType": "SIMPLE_MAPPING",
+            "source": "$.category",
+            "target": "test.categorie"
+          },
+          {
+            "type": "MappingElementSimple",
+            "mappingElementType": "SIMPLE_MAPPING",
+            "source": "$.author",
+            "target": "test.auteur"
+          },
+          {
+            "type": "MappingElementRules",
+            "sources": {
+              "author": "aut",
+              "category": "cate"
+            },
+            "rules": "if(1 == 1) result\\u003d\\u0027je test\\u0027 else result\\u003d\\u0027c est pas normal\\u0027 ",
+            "mappingElementType": "FUNCTION_MAPPING",
+            "target": "test.rulesResult"
+          }
+        ]
+      },
+      "mappingElementType": "SUB_MAPPING",
+      "source": "$.store.book[*]",
+      "target": "magasin.livre"
+    }
+  ]
+}
